@@ -56,7 +56,7 @@ class _DatabaseOptionsState extends State<DatabaseOptions> {
               ElevatedButton(
                 onPressed: () {
                   delete('pets', 'tom');
-                },
+                },// delete
                 child: Text("Delete"),
               ),
             ],
